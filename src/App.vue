@@ -29,8 +29,8 @@ export default {
 <style>
   .dashboard{
     position:fixed;
-    top:10px;
-    left:300px;
+    top:0;
+    left:190px;
   }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

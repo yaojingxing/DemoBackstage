@@ -77,8 +77,8 @@
         width:13%;
         overflow: hidden;
         position:fixed;
-        top:53px;
-        left:20px;
+        top:0px;
+        left:0px;
 
     }
     .el-radio-group{

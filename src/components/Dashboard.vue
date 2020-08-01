@@ -21,6 +21,6 @@
 
 <style scoped>
     .el-input{
-        width:500px;
+        width:900px;
     }
 </style>
