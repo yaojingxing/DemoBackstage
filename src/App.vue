@@ -1,22 +1,37 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <nav-bar></nav-bar>
+    <router-view></router-view>
+    <dashboard></dashboard>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import Home from "./views/Home";
+import NavBar from "./components/NavBar";
+import Dashboard from "./components/Dashboard"
+// import User from "./views/User";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // Home,
+    NavBar,
+    Dashboard
+    // User
+
   }
 }
 </script>
 
 <style>
+  .dashboard{
+    position:fixed;
+    top:10px;
+    left:300px;
+  }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,5 +39,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
 }
+
 </style>
